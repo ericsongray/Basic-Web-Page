@@ -4,3 +4,35 @@ body {
   font: normal 14px/18px "Helvetica neue", helvetica, arial, sans-serif;
   color: #999;
 }
+
+em {
+  font-family: georgia, serif;
+}
+
+a:link, a:active, a:visited {
+  color: #069;
+  background-color: #eee;
+  padding: 1px 3px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: orange;
+  padding: 1px 3px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+  font-weight: bold;
+}
+
+li {
+  padding: 1px 0;
+}
+
+.divider {
+  padding: 20px 0 0 0;
+  border-top: 1px solid #eee;
+}
